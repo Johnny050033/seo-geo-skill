@@ -97,6 +97,6 @@ Always re-check official docs when working on production SEO/GEO for high-value 
 
 ## License
 
-No license has been selected yet. Add a license before encouraging external reuse.
+MIT License.
 
-目前尚未選擇開源授權。若要鼓勵外部使用與二次開發，建議先加入 MIT 或 Apache-2.0 license。
+採用 MIT License，可自由使用、修改、分享與二次開發；請保留原始 copyright 與 license notice。
