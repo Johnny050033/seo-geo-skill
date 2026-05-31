@@ -1,0 +1,30 @@
+name: Bug report / 錯誤回報
+description: Report a bug in the skill, references, docs, or audit script.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 問題
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 重現步驟
+      description: Include commands, prompts, URLs, or files when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 預期行為
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / 補充資訊
+      description: OS, Node version, Codex context, screenshots, or logs.

@@ -1,0 +1,33 @@
+name: Improvement idea / 改進建議
+description: Suggest a SEO/GEO workflow, reference, or implementation improvement.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion / 建議
+      description: What should be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case / 使用情境
+      description: What website, framework, page type, or SEO/GEO task benefits from this?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or evidence / 來源或證據
+      description: Link official docs, research, examples, or observed behavior if available.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check / 安全檢查
+      options:
+        - label: This does not rely on hidden text, fake citations, fake reviews, doorway pages, or schema that conflicts with visible content.
+          required: true
+        - label: 這個建議不依賴隱藏文字、假引用、假評論、doorway pages，或與頁面可見內容衝突的 schema。
+          required: true
