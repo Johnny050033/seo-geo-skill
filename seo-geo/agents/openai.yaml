@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO GEO"
+  short_description: "Optimize websites for search engines and AI answer engines."
+  default_prompt: "Audit or build this website/page for SEO, GEO, structured data, technical discoverability, and AI-answer citation readiness."
